@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Typical Day</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      background-color: #f3f7f5;
+      color: #23332e;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin-bottom: 0.4rem;
+      color: #175c4a;
+    }
+
+    p {
+      margin-top: 0;
+      color: #53665f;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      border: 1px solid #c8d9d1;
+      text-align: left;
+    }
+
+    col.time-column {
+      width: 30%;
+      background-color: #e5f1eb;
+    }
+
+    tr {
+      border-bottom: 1px solid #dce7e1;
+    }
+
+    th {
+      padding: 0.9rem 1rem;
+      background-color: #175c4a;
+      color: #ffffff;
+      font-size: 1.05rem;
+    }
+
+    td {
+      padding: 0.8rem 1rem;
+      line-height: 1.4;
+    }
+
+    tbody tr:last-child {
+      border-bottom: 0;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 1.25rem 0.75rem;
+      }
+
+      th,
+      td {
+        padding: 0.7rem;
+      }
+
+      col.time-column {
+        width: 36%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>A Typical Day</h1>
+    <p>A simple weekday schedule, from the first alarm to lights out.</p>
+
+    <table>
+      <colgroup>
+        <col class="time-column">
+        <col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">Time</th>
+          <th scope="col">Event</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>7:00 a.m.</td>
+          <td>Wake up and get ready</td>
+        </tr>
+        <tr>
+          <td>7:30 a.m.</td>
+          <td>Have breakfast</td>
+        </tr>
+        <tr>
+          <td>8:00 a.m.</td>
+          <td>Travel to school</td>
+        </tr>
+        <tr>
+          <td>8:30 a.m.</td>
+          <td>Attend morning classes</td>
+        </tr>
+        <tr>
+          <td>12:00 p.m.</td>
+          <td>Eat lunch with friends</td>
+        </tr>
+        <tr>
+          <td>1:00 p.m.</td>
+          <td>Attend afternoon classes</td>
+        </tr>
+        <tr>
+          <td>3:30 p.m.</td>
+          <td>Work on homework</td>
+        </tr>
+        <tr>
+          <td>5:30 p.m.</td>
+          <td>Exercise and relax</td>
+        </tr>
+        <tr>
+          <td>7:00 p.m.</td>
+          <td>Have dinner with family</td>
+        </tr>
+        <tr>
+          <td>10:00 p.m.</td>
+          <td>Get ready for bed</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
